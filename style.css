@@ -1,0 +1,144 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    background-image: url(img/wallhaven-eyxdg8_1920x1080.png);
+}
+.left{
+    /* border: 2px solid red; */
+    display: inline-block; 
+    position: absolute;   
+    left: 30px;
+    top: 20px;
+}
+.left img{
+    display: block;
+    width: 45px;
+    filter: invert(100%);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left .logo-name{
+    font-size: 10px;
+    font-weight: bold;
+    padding-top: 10px;
+    filter: brightness(200%)
+}
+.mid{
+    /* border: 2px solid blue; */
+    display: block;
+    margin:  30px 475px;
+
+}
+.right{
+    /* border: 2px solid green; */
+    display: inline-block; 
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+.navbar li{
+    display: inline-block;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: aliceblue;
+    /* padding-right: 30px;
+    padding-left: 30px; */
+    margin-right: 30px;
+    margin-left: 30px;
+    text-shadow: -1px 1px 0 #000,
+    1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000;
+    font-weight: bold;
+    /* text-transform: uppercase; */
+
+}
+.navbar li a:hover{
+    text-shadow: none;
+    padding:5px ;
+    color: #789cb2;
+    text-decoration: underline;
+    /* background-color: aliceblue; */
+    /* background-color: transparent; */
+    font-weight: bolder;
+}
+
+.right .btn{
+    background-color: transparent;
+    color: aliceblue;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 36px;
+}
+
+.right .btn:hover{
+    background-color: aliceblue;
+    color: black;
+    font-weight: bold;
+}
+
+.container {
+    /* border: 2px solid white;     */
+    margin: 125px 5px;
+    width: 40%;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.container h2{
+    text-align: center;
+}
+
+.form-get input{
+    display: block;
+    color: rgb(160, 159, 159);
+    margin: 30px auto;
+    padding: 10px;
+    width: 80%;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    border-radius: 3px;
+}
+.form-get input:hover{
+    background-color: aliceblue;
+    opacity: 0.75;
+    color: #000;
+}
+#dob{
+    cursor: pointer;
+}
+#dob::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+#dob:hover{
+    background-color: aliceblue;
+    opacity: 0.75;
+    color: #000;
+}
+#dob:hover::-webkit-calendar-picker-indicator{
+    background-color: aliceblue;
+    opacity: 0.75;
+    filter: invert(0);
+}
+#submitbutton{
+    color: whitesmoke;
+    width: auto;
+    margin: 8px 50px ;
+    padding: 6px;
+    cursor: pointer;
+}
+#submitbutton:hover{
+    background-color: whitesmoke;
+    color: black;
+    opacity: 0.75;
+}
